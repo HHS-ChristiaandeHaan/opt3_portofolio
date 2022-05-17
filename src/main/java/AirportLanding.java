@@ -4,7 +4,6 @@ public class AirportLanding {
     public AirportLanding(int gewicht) {
         this.gewicht = gewicht;
     }
-    public void getPrijs(){
-
+    public int getPrijs(){
     }
 }
