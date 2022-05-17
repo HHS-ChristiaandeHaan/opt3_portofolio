@@ -18,13 +18,13 @@ public class AirportLandingTest {
         int gewicht5001 = 5001;
         //assert
         Assert.assertEquals(100, new AirportLanding(gewicht998).getPrijs());
-        Assert.assertEquals(999, new AirportLanding(gewicht999).getPrijs());
-        Assert.assertEquals(1000, new AirportLanding(gewicht1000).getPrijs());
-        Assert.assertEquals(1001, new AirportLanding(gewicht1001).getPrijs());
-        Assert.assertEquals(4998, new AirportLanding(gewicht4998).getPrijs());
-        Assert.assertEquals(4999, new AirportLanding(gewicht4999).getPrijs());
-        Assert.assertEquals(5000, new AirportLanding(gewicht5000).getPrijs());
-        Assert.assertEquals(5001, new AirportLanding(gewicht5001).getPrijs());
+        Assert.assertEquals(100, new AirportLanding(gewicht999).getPrijs());
+        Assert.assertEquals(500, new AirportLanding(gewicht1000).getPrijs());
+        Assert.assertEquals(500, new AirportLanding(gewicht1001).getPrijs());
+        Assert.assertEquals(500, new AirportLanding(gewicht4998).getPrijs());
+        Assert.assertEquals(500, new AirportLanding(gewicht4999).getPrijs());
+        Assert.assertEquals(2500, new AirportLanding(gewicht5000).getPrijs());
+        Assert.assertEquals(2500, new AirportLanding(gewicht5001).getPrijs());
 
     }
 }
